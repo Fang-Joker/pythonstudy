@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="56c3be5e-2c4b-4c2e-b1ff-9cb0b12acd93" name="https://github.com/Fang-Joker/pythonstudy" url="https://github.com/Fang-Joker/pythonstudy">
+        <fileTransfer host="https://github.com/Fang-Joker/pythonstudy" port="21" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
