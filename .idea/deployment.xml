@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="https://github.com/Fang-Joker/pythonstudy">
+  <component name="PublishConfigData" serverName="https://github.com/Fang-Joker/pythonstudy" uploadOnCheckin="56c3be5e-2c4b-4c2e-b1ff-9cb0b12acd93">
     <serverData>
       <paths name="https://github.com/Fang-Joker/pythonstudy">
         <serverdata>
@@ -10,5 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="https://github.com/Fang-Joker/pythonstudy" />
   </component>
 </project>
