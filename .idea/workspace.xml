@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ca46bae-6717-4d1f-931a-008efd244c99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/高级-包管理/01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/p01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/p02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/p03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/p04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/p05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/p06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/p07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/p08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/p09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/p10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/pkg01/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/pkg01/p01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/pkg02/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/高级-包管理/pkg02/p01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/语法基础_函数和数据类型.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/语法基础_函数和数据类型.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,19 +58,21 @@
     <session id="1506056645">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="py" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="Python" value="19" />
         </counts>
       </usages-collector>
@@ -97,12 +81,13 @@
           <entry key="dummy" value="3" />
           <entry key="md" value="622" />
           <entry key="py" value="1403" />
+          <entry key="txt" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="622" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="17" />
           <entry key="Python" value="1403" />
         </counts>
       </usages-collector>
@@ -114,8 +99,8 @@
         <entry file="file://$PROJECT_DIR$/高级-包管理/note.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="204">
-                <caret line="109" column="19" lean-forward="true" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
+              <first_editor relative-caret-position="441">
+                <caret line="111" selection-start-line="111" selection-end-line="111" />
               </first_editor>
               <second_editor />
             </state>
@@ -211,10 +196,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1030" />
-    <option name="y" value="55" />
+    <option name="x" value="226" />
+    <option name="y" value="30" />
     <option name="width" value="1365" />
-    <option name="height" value="968" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -224,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,27 +216,11 @@
               <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="高级-包管理" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="高级-包管理" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pythonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pythonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="高级-包管理" type="462c0819:PsiDirectoryNode" />
-              <item name="pkg02" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,19 +413,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542201668785</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="11.20 finished">
+      <created>1542722712901</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542722712901</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="824" y="44" width="1092" height="774" extended-state="0" />
-    <editor active="true" />
+    <frame x="182" y="24" width="1092" height="776" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14506769" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12475822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32917318" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937598" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -484,7 +458,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refresh" />
-    <option name="LAST_COMMIT_MESSAGE" value="refresh" />
+    <MESSAGE value="11.20 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.20 finished" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/oop基础.ipynb" />
@@ -557,10 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-          <folding>
-            <marker date="1542720455203" expanded="true" signature="52:53" ph="..." />
-            <marker date="1542720455203" expanded="true" signature="239:244" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,17 +552,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/高级-包管理/p08.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/高级-包管理/p09.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/高级-包管理/p10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -615,18 +586,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/高级-包管理/p10.py">
+    <entry file="file://$PROJECT_DIR$/高级-包管理/p08.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-异常处理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/高级-包管理/note.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="204">
-            <caret line="109" column="19" lean-forward="true" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
+          <first_editor relative-caret-position="441">
+            <caret line="111" selection-start-line="111" selection-end-line="111" />
           </first_editor>
           <second_editor />
         </state>
