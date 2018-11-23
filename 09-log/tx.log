@@ -1,0 +1,60 @@
+DEBUG:root:This is a debug log
+INFO:root:This is a debug log
+WARNING:root:This is a debug log
+ERROR:root:This is a debug log
+CRITICAL:root:This is a debug log
+DEBUG:root:This is a log
+INFO:root:This is a log
+WARNING:root:This is a log
+ERROR:root:This is a log
+CRITICAL:root:This is a log
+{0}s===={1}s++++{2}s
+{0}s===={1}s++++{2}s
+{0}s===={1}s++++{2}s
+{0}s===={1}s++++{2}s
+{0}s===={1}s++++{2}s
+{0}s===={1}s++++{2}s
+{0}s===={1}s++++{2}s
+{0}s===={1}s++++{2}s
+{0}s===={1}s++++{2}s
+{0}s===={1}s++++{2}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+{asctime}s===={levelname}s++++{message}s
+2018-11-23 12:21:09,976====DEBUG++++(message)s
+2018-11-23 12:21:09,976====INFO++++(message)s
+2018-11-23 12:21:09,976====WARNING++++(message)s
+2018-11-23 12:21:09,976====ERROR++++(message)s
+2018-11-23 12:21:09,976====CRITICAL++++(message)s
+2018-11-23 12:21:09,976====DEBUG++++(message)s
+2018-11-23 12:21:09,976====INFO++++(message)s
+2018-11-23 12:21:09,976====WARNING++++(message)s
+2018-11-23 12:21:09,976====ERROR++++(message)s
+2018-11-23 12:21:09,976====CRITICAL++++(message)s
+2018-11-23 12:21:43,868====DEBUG++++This is a debug log
+2018-11-23 12:21:43,869====INFO++++This is a debug log
+2018-11-23 12:21:43,869====WARNING++++This is a debug log
+2018-11-23 12:21:43,869====ERROR++++This is a debug log
+2018-11-23 12:21:43,869====CRITICAL++++This is a debug log
+2018-11-23 12:21:43,869====DEBUG++++This is a log
+2018-11-23 12:21:43,869====INFO++++This is a log
+2018-11-23 12:21:43,869====WARNING++++This is a log
+2018-11-23 12:21:43,869====ERROR++++This is a log
+2018-11-23 12:21:43,869====CRITICAL++++This is a log
