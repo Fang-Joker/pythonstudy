@@ -29,6 +29,7 @@ data = {
 }
 
 # 需要使用parse模块对data进行编码
+# 利用parse.urlencode()整合成url请求的格式，然后再进行编码
 data = parse.urlencode(data).encode("utf-8")
 print(type(data))
 #  我们需要构造一个请求头，请求头部应该至少包含传入的数据的长度
