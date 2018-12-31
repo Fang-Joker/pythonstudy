@@ -155,57 +155,66 @@
         - 打开登录页面后自动通过用户名密码登录
         - 自动提取反馈回来的cookie
         - 利用提取的cookie登录隐私页面
-handler是Handler的实例，常用参看案例代码
-用来处理复杂请求
-  # 生成 cookie的管理器
-  cookie_handler = request.HTTPCookieProcessor(cookie)
-  # 创建http请求管理器
-  http_handler = request.HTTPHandler()
-  # 生成https管理器
-  https_handler = request.HTTPSHandler()
-创立handler后，使用opener打开，打开后相应的业务由相应的hanlder处理
-cookie作为一个变量，打印出来, 案例 v14
-cookie的属性 
-name: 名称
-value： 值
-domain：可以访问此cookie的域名
-path： 可以发昂文此cookie的页面路径
-expires：过期时间
-size： 大小
-Http字段
-cookie的保存-FileCookieJar， 案例v15
-cookie的读取， 案例v16
-SSL
-SSL证书就是指遵守SSL安全套阶层协议的服务器数字证书（SercureSocketLayer)
-美国网景公司开发
-CA（CertifacateAuthority)是数字证书认证中心，是发放，管理，废除数字证书的收信人的第三方机构
-遇到不信任的SSL证书，需要单独处理，案例v17
-js加密
-有的反爬虫策略采用js对需要传输的数据进行加密处理（通常是取md5值)
-经过加密，传输的就是密文，但是
-加密函数或者过程一定是在浏览器完成，也就是一定会把代码（js代码）暴露给使用者
-通过阅读加密算法，就可以模拟出加密过程，从而达到破解
-过程参看案例v18, v19
-过程比较啰嗦，笔记比较少，仔细观察
-ajax
-异步请求
-一定会有url，请求方法，可能有数据
-一般使用json格式
-案例，爬去豆瓣电影， 案例v20
-Requests-献给人类
-HTTP for Humans，更简洁更友好
-继承了urllib的所有特征
-底层使用的是urllib3
-开源地址： https://github.com/requests/requests
-中文文档： http://docs.python-requests.org/zh_CN/latest/index.html
-安装： conda install requests
-get请求
-requests.get(url)
-requests.request("get", url)
-可以带有headers和parmas参数
-案例v21
-get返回内容
-案例v22
+    - handler是Handler的实例，常用参看案例代码
+        - 用来处理复杂请求
+      # 生成 cookie的管理器
+      cookie_handler = request.HTTPCookieProcessor(cookie)
+      # 创建http请求管理器
+      http_handler = request.HTTPHandler()
+      # 生成https管理器
+      https_handler = request.HTTPSHandler()
+    
+    - 创立handler后，使用opener打开，打开后相应的业务由相应的hanlder处理
+        - cookie作为一个变量，打印出来, 案例 v14
+            - cookie的属性 
+            - name: 名称
+            - value： 值
+            - domain：可以访问此cookie的域名
+            - path： 可以访问此cookie的页面路径
+            - expires：过期时间
+            - size： 大小
+            - Http字段
+            - cookie的保存-FileCookieJar， 案例v15
+            - cookie的读取， 案例v16（读取cookie，再使用建立的opener即可访问相应url）
+- SSL
+    - SSL证书就是指遵守SSL安全套阶层协议的服务器数字证书（SercureSocketLayer)
+    - 美国网景公司开发（保护用户在网页的安全，保护用户和网站信息安全）
+    - CA（CertifacateAuthority)是数字证书认证中心，是发放，管理，废除数字证书的收信人的第三方机构
+    - 遇到不信任的SSL证书，需要单独处理，案例v17
+    
+- js加密（滑动验证，图片验证加大了使用cookie访问的难度）
+    - 绝大多数加密都是在浏览器上完成的，因此可以破解使用手动加密
+    - 有的反爬虫策略采用js对需要传输的数据进行加密处理（通常是取md5值)
+    - 经过加密，传输的就是密文，但是
+    - 加密函数或者过程一定是在浏览器完成，也就是一定会把代码（js代码）暴露给使用者
+    - 通过阅读加密算法，就可以模拟出加密过程，从而达到破解
+    - 过程参看案例v18, v19
+    - 有salt和sign说明进行了加密
+    - salt是对输入的密码或字符加上随机的字符串再加密（防止破解）
+    - sign是加密相关的标志，即是md5值
+    - 操作，从种找到js的代码串，将其格式化（通过相关网站），找到加密的函数
+    - 过程比较啰嗦，笔记比较少，仔细观察
+- ajax
+    - 异步请求：就是那些网页下拉一直有内容的方法，到底就请求（就是用ajax）
+    - 一定会有url，请求方法，可能有数据
+    - 一般使用json格式
+    - 案例，爬去豆瓣电影， 案例v20
+
+# Requests-献给人类
+- 功能和urllib其实差不多，但是更好用
+- HTTP for Humans，更简洁更友好
+- 继承了urllib的所有特征
+- 底层使用的是urllib3
+- 开源地址： https://github.com/requests/requests
+- 中文文档： http://docs.python-requests.org/zh_CN/latest/index.html
+- 安装： conda install requests
+- get请求
+    - requests.get(url)
+    - requests.request("get", url)
+    - 可以带有headers和parmas参数
+    - 案例v21
+- get返回内容
+    - 案例v22
 post
 rsp = requests.post(url, data=data)
 参看案例23
