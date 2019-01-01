@@ -48,6 +48,7 @@
 - 概念：父节点，子节点，先辈节点，兄弟节点，后代节点
 
 # XPath
+- 局部遍历，加载部分数据
 - XPath(XML Path Language), 是一门在XML文档中查找信息的语言，
 - 官方文档： http://www.w3school.com.cn/xpath/index.asp
 - XPath开发工具
@@ -90,59 +91,64 @@
 # lxml库
 - python的HTML/XML的解析器
 - 官方文档： http://lxml.de/index.html
-功能： 
-解析HTML,案例v29.py
-文件读取，案例v30.html, v31.py
-etree和XPath的配合使用, 案例v32.py
-CSS选择器 BeautifulSoup4
-现在使用BeautifulSoup4
-http://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/
-几个常用提取信息工具的比较：
-正则： 很快，不好用，不许安装
-beautifulsoup：慢，使用简单，安装简单
-lxml： 比较快，使用简单，安装一般
-案例v33.py
-四大对象
-Tag
-NavigableString
-BeautifulSoup
-Comment
-Tag
-对应Html中的标签
-可以通过soup.tag_name
-tag两个重要属性 
-name
-attrs
-案例a34
-NavigableString
-对应内容值
-BeautifulSoup
-表示的是一个文档的内容，大部分可以把他当做tag对象
-一般我们可以用soup来表示
-Comment
-特殊类型的NavagableString对象，
-对其输出，则内容不包括注释符号
-遍历文档对象
-contents: tag的子节点以列表的方式给出
-children： 子节点以迭代器形式返回
-descendants： 所子孙节点
-string
-案例34
-搜索文档对象
-find_all(name, attrs, recursive, text, ** kwargs) 
-name:按照那个字符串搜索，可以传入的内容为 
-字符串
-正则表达式
-列表
-kewwortd参数，可以用来表示属性
-text： 对应tag的文本值
-案例34
-css选择器
-使用soup.select, 返回一个列表
-通过标签名称: soup.select("title")
-通过类名： soup.select(".content")
-id查找: soup.select("#name_id")
-组合查找: soup.select("div #input_content")
-属性查找: soup.select("img[class='photo'])
-获取tag内容： tag.get_text
-案例35
+- 功能： 
+- 解析HTML,案例v29.py
+- 文件读取，案例v30.html, v31.py
+- etree和XPath的配合使用, 案例v32.py
+
+# CSS选择器 BeautifulSoup4
+- 提取数据，全部遍历，一开始就加载所有数据，较吃内存
+- 现在使用BeautifulSoup4
+- http://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/
+- 几个常用提取信息工具的比较：
+    - 正则： 很快，不好用，不需要安装
+    - beautifulsoup：慢，使用简单，安装简单
+    - lxml： 比较快，使用简单，安装一般
+    - 案例v33.py
+- 四大对象
+    - Tag
+    - NavigableString
+    - BeautifulSoup
+    - Comment
+- Tag
+    - 对应Html中的标签
+    - 可以通过soup.tag_name(只找第一个)
+    - tag两个重要属性 
+        - name
+        - attrs
+    - 案例a34
+- NavigableString
+    - 对应内容值
+    - 直接在相应标签加.string属性即可
+- BeautifulSoup
+    - 表示的是一个文档的内容，大部分可以把他当做tag对象
+    - 一般我们可以用soup来表示
+- Comment（网页内容中的注释）
+    - 特殊类型的NavagableString对象，
+    - 对其输出，则内容不包括注释符号
+
+- 如何遍历文档对象
+    - contents: tag的子节点以列表的方式给出
+    - children： 子节点以迭代器形式返回
+    - descendants： 所子孙节点
+    - string
+    - 案例34
+- 搜索文档对象
+    - 进行属性限制，find_all(name, attrs, recursive, text, ** kwargs) 
+    - name:按照那个字符串搜索，可以传入的内容为 
+        - 字符串
+        - 正则表达式
+        - 列表
+        - keyword参数，可以用来表示属性
+        - text： 对应tag的文本值
+    案例v35
+
+- css选择器
+    - 使用soup.select, 返回一个列表
+    - 通过标签名称: soup.select("title")
+    - 通过类名： soup.select(".content")
+    - id查找: soup.select("#name_id")
+    - 组合查找: soup.select("div #input_content")
+    - 属性查找: soup.select("img[class='photo'])
+    - 获取tag内容： tag.get_text
+    - 案例v36
